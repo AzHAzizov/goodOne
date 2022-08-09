@@ -13,9 +13,6 @@ class MaterialTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(Material::class, 5)->create()->each(function($material) {
-            $product= factory(Product::class)->make();
-            $material->products()->save($product);
-        });
+        factory(Material::class, 5)->create();
     }
 }
