@@ -1,0 +1,12 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "goodOne",
+            "database": "${workspaceFolder:goodOne}/database/wear.sqlite",
+            "group": "Test"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
