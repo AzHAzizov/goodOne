@@ -12,6 +12,6 @@ class MaterialProductsSeeder extends Seeder
      */
     public function run()
     {
-        factory(MaterialProduct::class, 5)->create();
+        // factory(MaterialProduct::class, 5)->create();
     }
 }
